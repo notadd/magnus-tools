@@ -1,0 +1,111 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    animation     : App-logo-spin infinite 20s linear;
+    height        : 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #33324C;
+    height          : 56px;
+    display         : flex;
+    align-items     : center;
+    flex-direction  : row;
+    padding-top     : 5px;
+    padding-bottom  : 5px;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+div.content {
+    padding: 10px;
+}
+
+div.vocabulary {
+    border          : none;
+    display         : inline-block;
+    border-radius   : 6px;
+    padding         : 2px;
+    margin          : 2px;
+    background-color: #ccc;
+    color           : #fff !important;
+    user-select     : none;
+}
+
+div.contextList {
+    margin : 10px;
+    padding: 15px
+}
+
+div.importFileDropzone {
+    margin-left : 10px;
+    margin-right: 10px;
+    padding     : 2px;
+    border-style: solid;
+    border-width: 3px;
+}
+
+.button {
+    text-align                 : center;
+    text-decoration            : none;
+    display                    : inline-block;
+    font-size                  : 16px;
+    margin                     : 4px 2px;
+    padding-left               : 20px;
+    padding-right              : 20px;
+    padding-top                : 5px;
+    padding-bottom             : 5px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor             : pointer;
+    border             : none;
+    border-radius      : 10px;
+}
+
+.commandBtn {
+    background-color: #EA6667;
+    color           : #F8FAFB;
+}
+
+div.forkOnGithub {
+    position: absolute;
+    top     : 0;
+    right   : 0;
+}
+
+@media screen and (max-width: 600px) {
+    div.forkOnGithub {
+        position  : absolute;
+        top       : 0;
+        right     : 0;
+        visibility: hidden;
+    }
+}
+
+ol.onboardingText {
+    padding-bottom: 10px;
+    margin-left   : 20px;
+    margin-right  : 20px;
+}
+
+li.onboardingTextLine {
+    color         : #F8FAFB;
+    padding-bottom: 5px;
+    padding       : 5px;
+}
